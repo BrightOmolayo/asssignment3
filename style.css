@@ -40,22 +40,34 @@ a{
   .dropdown-content {
     display: none;
     position: relative;
-    background-color: #aaa;
-    width: 90%;
+    background-color: rgb(28, 0, 105);
+    width: 100%;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    padding: 5%;
+    
   }
   
   .dropdown-content a {
-    color: black;
+    color: whitesmoke;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   
-  .dropdown a:hover {background-color: #ddd;}
+  select{
+    border: transparent;
+    position: relative;
+    bottom: 29px;
+    left: 62px;
+    background-color: transparent;
+    
+  }
+
+  button{
+    border: transparent;
+    background-color: transparent;
+  }
   
   .show {display: block;}
   
