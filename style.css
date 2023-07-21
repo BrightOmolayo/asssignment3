@@ -24,6 +24,7 @@ a{
 .headerlinks{
     display: none;
 }
+/* drop-down-split-btn*/
 
 .dropbtn {
   
@@ -70,4 +71,41 @@ a{
   }
   
   .show {display: block;}
-  
+
+  /*The logo*/
+
+  .verticalLines{
+    display: flex;
+    width: 8%;
+    justify-content: space-around;
+    position: relative;
+    left: 11%;
+  }
+  .vl1,
+  .vl2,
+  .vl3,
+  .vl4{
+    padding-left: 2px;
+    background-color: #000;
+    height: 40px;
+    width: 2px;
+  }
+
+  .horizontalLine{
+    display: block;
+    height: 40px;
+    width: 8%;
+    position: relative;
+    bottom: 30px;
+
+  }
+  .hl1,
+  .hl2,
+  .hl3,
+  .hl4{
+    padding-top: 2px;
+    background-color: #000;
+    height: 2px;
+    width: 40px;
+    margin-top: 5%;
+  }
