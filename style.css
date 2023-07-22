@@ -21,9 +21,15 @@ a{
     background-color: #d3c8c8;
 }
 /*for mobile devices*/
+
+header{
+  height: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .headerlinks{
     display: none;
 }
+
 /* drop-down-split-btn*/
 
 .dropbtn {
@@ -36,12 +42,14 @@ a{
   .dropdown {
     position: relative;
     display: inline-block;
+    left: 30%;
+    bottom: 40px;
   }
   
   .dropdown-content {
     display: none;
     position: relative;
-    background-color: rgb(28, 0, 105);
+    background-color:#0000ff;
     width: 100%;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -74,12 +82,19 @@ a{
 
   /*The logo*/
 
+  .logo{
+    height: 40px;
+    width:80px;
+    margin: 1px;
+  }
+
   .verticalLines{
     display: flex;
-    width: 8%;
+    width: 43%;
     justify-content: space-around;
     position: relative;
-    left: 11%;
+    bottom: 40px;
+    left: 5px;
   }
   .vl1,
   .vl2,
@@ -87,16 +102,17 @@ a{
   .vl4{
     padding-left: 2px;
     background-color: #000;
-    height: 40px;
+    height: 30px;
     width: 2px;
   }
 
   .horizontalLine{
     display: block;
     height: 40px;
-    width: 8%;
+    width: 50%;
     position: relative;
-    bottom: 30px;
+    left: 50%;
+    margin: -0px;
 
   }
   .hl1,
@@ -106,6 +122,6 @@ a{
     padding-top: 2px;
     background-color: #000;
     height: 2px;
-    width: 40px;
-    margin-top: 5%;
+    width: 30px;
+    margin-top: 11%;
   }
