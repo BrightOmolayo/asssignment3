@@ -11,6 +11,9 @@ img{
   width: 100%;
 }
 
+a{
+  text-decoration: none;
+}
 
 video{
   width: 100%;
@@ -28,7 +31,7 @@ video{
 }
 
 header{
-  height: 70px;
+  height: 40px;
   width: 100%;
   padding: 2%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,9 +40,10 @@ header{
 /*The logo*/
 
 .logo{
-  height: 40px;
-  width:80px;
+  height: 35px;
+  width:70px;
   margin: 1px;
+  padding-right: 4%;
 }
 .verticalLines{
   display: flex;
@@ -90,7 +94,9 @@ header{
   padding: 2px;
   font-size: 26px;
   position: relative;
-  left: 20%;
+  left: 40%;
+  border: transparent;
+  background-color: transparent;
 }
 
 .dropdown {
@@ -139,4 +145,97 @@ header{
 
 .p2{
   padding: 4%;
+}
+
+/*page 2*/
+
+.middleImg{
+  display: flex;
+}
+
+.traDiv{
+  width: 40%;
+  position: relative;
+  top: 45px;
+  left: 7%;
+  z-index: 1;
+  height: 200px;
+}
+
+.yellowDiv{
+  width: 60%;
+  background-color: #fbffa7;
+  z-index: 0;
+  height: 200px;
+}
+
+.Result{
+  padding: 15%;
+  width: 40%;
+  position: relative;
+  left: 15%;
+  top: 15px;
+}
+
+.p3{
+  padding: 5%;
+}
+
+.p4,
+.p5,
+.p6,
+.p7,
+.p8{
+  padding: 4%;
+}
+
+figure{
+  padding:8% 8% 4% 4%;
+}
+
+.threeIn1{
+  display: flex;
+  height: 320px;
+}
+
+.twoImgContainer{
+  width: 60%;
+  background-color: #b6ffc0;
+}
+.img5{
+  width: 70%;
+  position: relative;
+  left: 2%;
+  padding: 7%;
+  top: 20px;
+}
+
+.img6{
+  width: 70%;
+  position: relative;
+  left: 2%;
+  padding: 7%;
+  top: 20px;
+}
+
+.img7{
+  width: 38%;
+  position: relative;
+  right: 06%;
+  top: 50px;
+  height: 80px;
+}
+
+.p7,
+.p8{
+  padding: 5%;
+}
+
+.img8{
+  padding: 4%;
+}
+
+.p9,
+.p10{
+  padding: 5%;
 }
